@@ -1,6 +1,10 @@
 
+import java.util.Scanner;
+
+
 public class test {
 
+  
     public static void main(String[] args) {
         System.err.println("working with me");
 
@@ -47,9 +51,53 @@ public class test {
             }
           
         }
+
+        loop();
+    }
+
+    // while loop
+
+    public static void loop()
+    {
+        int i = 0 ;
+        while(i<=10){
+            
+            System.out.println(i);
+            i++;
+        }
+
+            // int j =10;
+        // do { 
+        //     System.err.println(j);
+        //     i--;
+        // } while (j>0);
+
+
+        //how to take input from the user
+        Scanner sc = new Scanner(System.in);
+
+        int c = sc.nextInt();
+
+        System.err.println(c);
+
+
+    
+
+        int [] nums = {1 , 2,4};
+        
+        for(int q=0 ; q< nums.length; q++) {
+            System.err.println(nums[q]);
+        }
+
+
+        
+
+
     }
 
 
 }
+
+
 
 

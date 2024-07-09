@@ -4,6 +4,8 @@ class  loops
 {   
     public static void main(String[] args) {
         loop();
+
+        isTrue(8, 4);
     }
     public static void loop()
     {
@@ -60,5 +62,17 @@ class  loops
         }
 
 
+    }
+
+
+    public static boolean  isTrue(int k , int z)
+    {
+        if(k>z)
+        {
+            return  true;
+        }
+        else{
+            return  false;
+        }
     }
 }

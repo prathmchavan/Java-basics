@@ -1,78 +1,53 @@
-import  java.util.Scanner;
+import java.util.Scanner;
 
-class  loops
-{   
+class Loops {   
     public static void main(String[] args) {
         loop();
 
-        isTrue(8, 4);
+        // Create an instance of the Loops class to call the non-static method
+        Loops obj = new Loops();
+        System.out.println(obj.isTrue(8, 4));
     }
-    public static void loop()
-    {
-        int i = 0 ;
-        while(i<=10){
-            
+
+    public static void loop() {
+        int i = 0;
+        while (i <= 10) {
             System.out.println(i);
             i++;
         }
 
-            // int j =10;
-        // do { 
-        //     System.err.println(j);
-        //     i--;
-        // } while (j>0);
-
-
-        //how to take input from the user
+        // Taking input from the user
         Scanner sc = new Scanner(System.in);
-
+        System.out.print("Enter a number: ");
         int c = sc.nextInt();
+        System.out.println("You entered: " + c);
+        sc.close();
 
-        System.err.println(c);
-
-
-    
-
-        int [] nums = {1 , 2,4};
-        
-        for(int q=0 ; q< nums.length; q++) {
-            System.err.println(nums[q]);
+        int[] nums = {1, 2, 4};
+        for (int q = 0; q < nums.length; q++) {
+            System.out.println(nums[q]);
         }
 
-        
-        int [] ages ={ 19,20 ,79, 10};
-        int sum =0;
-        for(int x : ages)
-        {
+        int[] ages = {19, 20, 79, 10};
+        int sum = 0;
+        for (int x  : ages) {
             sum += x;
-            
         }
-        System.out.println(sum);
-        
+        System.out.println("Sum of ages: " + sum);
 
-
-        int [][] number  ={ {1,2,3},{4,5,6}};
-
-        for( int s =0 ; s<number.length; s++)
-        {
-            for(int r =0 ; r< number[s].length ; r++)
-            {
+        int[][] number = {{1, 2, 3}, {4, 5, 6}};
+        for (int s = 0; s < number.length; s++) {
+            for (int r = 0; r < number[s].length; r++) {
                 System.out.println(number[s][r]);
             }
         }
-
-
     }
 
-
-    public static boolean  isTrue(int k , int z)
-    {
-        if(k>z)
-        {
-            return  true;
-        }
-        else{
-            return  false;
+    public boolean isTrue(int k, int z) {
+        if (k > z) {
+            return true;
+        } else {
+            return false;
         }
     }
 }

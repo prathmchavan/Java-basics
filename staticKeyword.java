@@ -37,12 +37,7 @@ public class  staticKeyword{
 
         /*Important notes
          * if i update the staic variable i will get reflected in every object , it means same for all 
-         */
-      
-        
-        
-
-        
+         */   
 
     }
     

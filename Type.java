@@ -17,7 +17,7 @@ public class Type {
     public static void main(String[] args) {
         // Example of primitive type casting (narrowing conversion)
         // double d = 4.5;
-        // int i = (int) d;
+        // int i = (int) d; 
         // System.out.println(i); // Outputs: 4
 
         // Example of creating an object of class A

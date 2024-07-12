@@ -72,7 +72,7 @@ class  test{
 	}
 	
     /*Important notes:
-     * lets we are creating the constructor and we are creating initial values for the variable and we are calling the constructor when we intantiat the obje of class so every time we are creating name vriable
+     * lets we are creating the constructor and we are creating initial values for the variable and we are calling the constructor when we intantiat the object of class so every time we are creating name vriable
      * but our name variable is static it is same for all so we should initialize onece here the static block concept comes in
      * the static block get called when the class get loads
      * rather we change the sequence of constructor or static block but static block get called first

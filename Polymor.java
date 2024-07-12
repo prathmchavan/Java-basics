@@ -46,7 +46,7 @@ public void show()
 
 }
 
- public  class  Ploy{
+ public  class  Polymor{
 
     public static void main(String[] args) {
         

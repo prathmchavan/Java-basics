@@ -10,7 +10,7 @@ public class test {
 
         String name;
 
-        name = " prathmes";
+        name = " prathmesh";
 
         System.err.println(name);
         name("passing the arg to the name method");

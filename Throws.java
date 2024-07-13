@@ -18,7 +18,7 @@ class A {
 //    		System.out.println("Not able to find theh class");
 //    	}
 
-        Class.forName("Calc");
+        Class.forName("Calc");  
     }
 }
 

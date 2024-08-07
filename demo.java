@@ -72,8 +72,8 @@ class demo{
         
         Student s2 = new Student();
 
-        s2.name= "pc";
-        s2.no =10;
+        // s2.name= "pc";
+        // s2.no =10;
 
         
         Student s3 = new Student();
